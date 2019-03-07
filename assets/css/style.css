@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    line-height: 38px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/dark-paths.png");
+     
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0% auto;
+    clear: both;
+    background-color:#ffffff; 
+    
+
+}
+
+h1,
+h2,
+h3,
+p{
+    margin-bottom: 20px;
+}
+P:last-child{
+    margin-bottom: 0;
+}
+h1,
+h2,
+h3{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 700;
+ color: #4aaaa5;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+}
+h2,
+h3{
+    font-size: 22px;
+}
+
+nav{
+    float: right;
+     margin-top: 25px;
+    
+
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999999;
+    border-left: 1px solid #eeffee;
+    text-decoration: none;
+
+}
+nav a {
+    border-left: 0 none;
+}
+#masthead{
+    position:fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    background: #ffffff;
+}
+#logo {
+    width: 250px;
+    height: 100px;
+    background: #4aaaa5;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+footer{
+    background: #666666;
+    color: #ffffff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5; 
+    color: #cccccc;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+}
+h3,
+h2{
+    padding-bottom: 20px;
+    margin-bottom: 15;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.me-img{
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 23px;
+}
+/*main*/
+
+#main-container{
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+
+
+}
+
+.main-section{
+    float:left;
+    width:100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd
+}
+.work:nth-child(even){
+    margin-right: 40px;
+}
+
+.work{
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work img{
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+ .work h3 {
+     position: absolute;
+     bottom: 20px;
+     width: 100;
+     padding: 15px;
+     margin-bottom: 0;
+     font-weight: 300;
+     line-height: 30px;
+     color: #ffffff;
+     text-align: center;
+     background: #4aaaa5;
+     border-bottom: 0;
+ }
+
+ #contact-form ul{
+     margin-bottom: 20px;
+ }
+
+ #contact-form li{
+     margin-bottom: 10px;
+ }
+
+ label,
+ input[type=text],
+ input[type=email],
+ textarea {
+     height: 35px;
+     padding:0 10px;
+     font-size: 14px;
+     border: 1px solid #dddddd;
+ }
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+}
+
+
