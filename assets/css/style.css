@@ -8,13 +8,14 @@ body{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/dark-paths.png");
-     
+     background-size: 1000px;
 }
 .container{
     width: 100%;
     max-width: 960px;
     margin: 0% auto;
     clear: both;
+    margin-bottom: 50px;
     background-color:#ffffff; 
     
 
@@ -28,6 +29,10 @@ p{
 }
 P:last-child{
     margin-bottom: 0;
+}
+
+h1,h2,h3,p {
+    margin-bottom: 20px;
 }
 h1,
 h2,
@@ -63,9 +68,10 @@ nav a {
     color: #999999;
     border-left: 1px solid #eeffee;
     text-decoration: none;
+    margin-top: 35px
 
 }
-nav a {
+nav a:first-child {
     border-left: 0 none;
 }
 #masthead{
@@ -77,21 +83,11 @@ nav a {
     color: #ffffff;
     border-bottom: 2px solid #cccccc;
     background: #ffffff;
+    position: fixed;
+    margin-top: 0px;
+    height: 130px;
 }
-#logo {
-    width: 250px;
-    height: 100px;
-    background: #4aaaa5;
-    float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    line-height: 90px;
-    color:#ffffff;
-    font-size: 30px;
-    font-weight: 700;
-    text-decoration: none;
 
-}
 footer{
     background: #666666;
     color: #ffffff;
@@ -101,7 +97,9 @@ footer{
     color: #cccccc;
     font-size: 15px;
     text-align: center;
-    height: 50px;
+    font-weight: 500;
+    margin-left: -315;
+    margin-right: -315px;
 }
 h3,
 h2{
@@ -131,12 +129,20 @@ h2{
     width:100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 0 40px 0;
     background: #ffffff;
     border: 1px solid #dddddd
 }
 .work:nth-child(even){
     margin-right: 40px;
+}
+
+.ipic {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
 }
 
 .work{
@@ -178,13 +184,20 @@ h2{
  input[type=text],
  input[type=email],
  textarea {
-     height: 35px;
-     padding:0 10px;
-     font-size: 14px;
-     border: 1px solid #dddddd;
+     display: block;
+     width: 100%;
  }
 
-textarea {
+input[type=text],
+input[type=email],
+textarea{
+    height: 35px;
+    border: 1px solid whitesmoke;
+    padding: o 10px;
+    font-size: 14px;
+}
+
+ textarea {
     height: 200px;
 }
 
@@ -196,5 +209,142 @@ input[type=submit]{
     background: #4aaaa5;
     border: 0 none;
 }
+
+@media only screen and (max-width: 980px) {
+    .container {
+        padding: 0 20px;
+        max-width: 768;
+    }
+    #main-container{
+        padding-top: 130px;
+    } 
+    .main-section {
+        max-width: 420px;
+    }
+    .work {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ 
+    .ipic {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ 
+    .me-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     .main-section,  {
+         max-width: 100%;
+     }
+     #main-container {
+         overflow: auto;
+     }
+     
+     
+     .work {
+         width: 47;
+         margin-bottom: 10px;
+ 
+     }
+     
+     .work:nth-child(even) {
+         margin-right: 0;
+     }
+     .work:nth-child(odd) {
+         float: right;
+     }
+     .ipic{
+         width: 50%;
+     }
+    
+ 
+ @media only screen and (max-width: 640px){
+     #masthead {
+         position: static;
+         margin-bottom: 20px;
+     }
+     header.container {
+         padding: 0;
+     }
+     #main-container{
+         padding-top: 0;
+     }
+      .work .ipic {
+         width:100%;
+     }
+     nav{
+         text-align: center;
+         width: 100%;
+         margin: 15px 0;
+     }
+     nav a {
+         width: 30%;
+         padding-left: 0;
+     }
+     
+ }
+/*sidebar*/
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
 
 

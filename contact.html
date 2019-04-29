@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    <link rel="stylesheet" type=text/css media="screen" href="./assets/css/style.css">
+   
+ </head>   
 <body>
-    </head>
-    <header>
+    <header id= "masthead">
             <div class="container">
-                    <div>
-                            <a href="index.html" id="logo">Oscar charo</a>
-                    </div>
-                        <nav class="nav">
+                <div>
+                        <a href="index.html" id="logo">Oscar charo</a>
+                     <nav class="nav">     
+                        <a href="#" class="active">About</a>
+                        <a href="portofolio.html">Portofolio</a>
+                        <a href="contact.html">Contact</a>
                             
-                                <a href="#" class="active">About</a>
-                                <a href="portofolio.html">Portofolio</a>
-                                <a href="contact.html">Contact</a>
-                            
-                        </nav>
-                </div>          
-        
+                     </nav>
+            </div>            
     </header>
     <div id="main container" class="container">
 
@@ -33,27 +32,32 @@
         <Ul>
             <li>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="" required="required">
+                <input type="text" id="name" name="name"
+                 placeholder="" 
+                 required="required">
               </li>
               <li>
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="" required="required">
+                <input type="text" id="email" name="email"
+                 placeholder=""
+                  required="required">
               </li>
               <li>
                 <label for="message">Message</label>
-                <textarea id="message" name="message" required="required"></textarea>
+                <textarea id="message" name="message" 
+                required="required"></textarea>
               </li>
         </Ul>
-        <input type="submit">
+        <input type="submit" name="submit">
         </form>
     </section>
     
     </div>
-    <footer>
-        <div> 
-            copyrigth 2019 &copy;
-        </div>
-    </footer>
+    <div class="container">
+            <footer>
+               copyrigth 2019 &copy;
+        </footer>
+       </div>
     
 </body>
 </html>
