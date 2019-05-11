@@ -2,349 +2,159 @@
     box-sizing: border-box;
 }
 
-body{
-    font-size: 18px;
-    line-height: 38px;
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../images/dark-paths.png");
-     background-size: 1000px;
-}
-.container{
-    width: 100%;
-    max-width: 960px;
-    margin: 0% auto;
-    clear: both;
-    margin-bottom: 50px;
-    background-color:#ffffff; 
-    
-
-}
-
-h1,
-h2,
-h3,
-p{
-    margin-bottom: 20px;
-}
-P:last-child{
-    margin-bottom: 0;
-}
-
-h1,h2,h3,p {
-    margin-bottom: 20px;
-}
-h1,
-h2,
-h3{
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-weight: 700;
- color: #4aaaa5;
-}
-
-h1{
-    padding-bottom: 20px;
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #dddddd;
-}
-h2,
-h3{
-    font-size: 22px;
-}
-
-nav{
-    float: right;
-     margin-top: 25px;
-    
-
-}
-
-nav a {
-    display: inline-block;
-    padding-left: 15px;
-    margin-left: 15px;
-    line-height: 18px;
-    color: #999999;
-    border-left: 1px solid #eeffee;
-    text-decoration: none;
-    margin-top: 35px
-
-}
-nav a:first-child {
-    border-left: 0 none;
-}
-#masthead{
-    position:fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    background: #ffffff;
-    position: fixed;
-    margin-top: 0px;
-    height: 130px;
-}
-
-footer{
-    background: #666666;
-    color: #ffffff;
-    padding: 30px 0;
-    clear: both;
-    border-top: 8px solid #4aaaa5; 
-    color: #cccccc;
-    font-size: 15px;
-    text-align: center;
+body {
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: rgb(211, 191, 9);
+     background-attachment: fixed;
+     background-size: 100%;
+  }
+  
+  
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+      
+    }
+  }
+  
+  h1
+ {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  
+  .subheading {
+    text-transform: uppercase;
     font-weight: 500;
-    margin-left: -315;
-    margin-right: -315px;
-}
-h3,
-h2{
-    padding-bottom: 20px;
-    margin-bottom: 15;
-    line-height: 22px;
-    border-bottom: 2px solid #eeeeee;
-}
-
-.me-img{
-    width: 200px;
-    float: left;
-    margin-right: 25px;
-    margin-top: 23px;
-}
-/*main*/
-
-#main-container{
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-
-
-}
-
-.main-section{
-    float:left;
-    width:100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px 0;
-    background: #ffffff;
-    border: 1px solid #dddddd
-}
-.work:nth-child(even){
-    margin-right: 40px;
-}
-
-.ipic {
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    float: left;
-    margin-right: 25px;
-}
-
-.work{
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-}
-
-.work img{
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-}
- .work h3 {
-     position: absolute;
-     bottom: 20px;
-     width: 100;
-     padding: 15px;
-     margin-bottom: 0;
-     font-weight: 300;
-     line-height: 30px;
-     color: #ffffff;
-     text-align: center;
-     background: #4aaaa5;
-     border-bottom: 0;
- }
-
- #contact-form ul{
-     margin-bottom: 20px;
- }
-
- #contact-form li{
-     margin-bottom: 10px;
- }
-
- label,
- input[type=text],
- input[type=email],
- textarea {
-     display: block;
-     width: 100%;
- }
-
-input[type=text],
-input[type=email],
-textarea{
-    height: 35px;
-    border: 1px solid whitesmoke;
-    padding: o 10px;
-    font-size: 14px;
-}
-
- textarea {
-    height: 200px;
-}
-
-input[type=submit]{
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-}
-
-@media only screen and (max-width: 980px) {
-    .container {
-        padding: 0 20px;
-        max-width: 768;
-    }
-    #main-container{
-        padding-top: 130px;
-    } 
-    .main-section {
-        max-width: 420px;
-    }
-    .work {
-        width: 100%;
-        margin-bottom: 20px;
-    }
- 
-    .ipic {
-        width: 100%;
-        margin-bottom: 20px;
-    }
- 
-    .me-img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
- }
- 
- @media only screen and (max-width: 768px) {
-     .main-section,  {
-         max-width: 100%;
-     }
-     #main-container {
-         overflow: auto;
-     }
-     
-     
-     .work {
-         width: 47;
-         margin-bottom: 10px;
- 
-     }
-     
-     .work:nth-child(even) {
-         margin-right: 0;
-     }
-     .work:nth-child(odd) {
-         float: right;
-     }
-     .ipic{
-         width: 50%;
-     }
-    
- 
- @media only screen and (max-width: 640px){
-     #masthead {
-         position: static;
-         margin-bottom: 20px;
-     }
-     header.container {
-         padding: 0;
-     }
-     #main-container{
-         padding-top: 0;
-     }
-      .work .ipic {
-         width:100%;
-     }
-     nav{
-         text-align: center;
-         width: 100%;
-         margin: 15px 0;
-     }
-     nav a {
-         width: 30%;
-         padding-left: 0;
-     }
-     
- }
-/*sidebar*/
-
-/* The side navigation menu */
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
   }
   
-  /* Sidebar links */
-  .sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #052647;
+    color: #fff ;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
   }
   
-  /* Active/current link */
-  .sidebar a.active {
-    background-color: #4CAF50;
-    color: white;
+  .social-icons a:last-child {
+    margin-right: 0;
   }
   
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+  .social-icons a:hover {
+    background-color: rgb(192, 189, 11);
   }
   
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
+  .dev-icons {
+    font-size: 3rem;
   }
   
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+  .dev-icons .list-inline-item i:hover {
+    color: rgb(231, 217, 19);
+  }
+
+  nav{
+      background-color: #343a40;
   }
   
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar a {
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  #sideNav .navbar-toggler:focus {
+    outline-color: rgb(231, 217, 19);;
+  }
+  
+  @media (min-width: 992px) {
+    #sideNav {
       text-align: center;
-      float: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgb(211, 191, 9);
+    }
+    #sideNav .navbar-collapse {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
     }
   }
-
-
+  
+  
+  
+  .bg-primary {
+    background-color: rgba(14, 13, 12, 0.925) ;
+  }
+  
+  .text-primary {
+    color: rgb(211, 191, 9) ;
+  }
+  
+  a {
+    color: rgb(211, 191, 9);
+  }
+  
+  a:hover, a:focus, a:active {
+    color:rgb(211, 191, 9);
+  }
+  
