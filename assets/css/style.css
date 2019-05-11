@@ -70,9 +70,7 @@ body {
     color: rgb(231, 217, 19);
   }
 
-  nav{
-      background-color: #343a40;
-  }
+
   
   #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;
@@ -99,6 +97,9 @@ body {
       flex-direction: column;
       width: 17rem;
       height: 100vh;
+    }
+    #sidenav{
+        color: #04172b;
     }
     #sideNav .navbar-brand {
       display: -webkit-box;
