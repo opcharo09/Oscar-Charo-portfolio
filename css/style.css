@@ -6,20 +6,20 @@ body {
     color: rgb(145, 15, 15);
 }
 
-nav {
+.navbar {
     background: black;
-    color: blanchedalmond;
-    text-align: center;
 }
 
 .nabvar-toggler-icon {
     color: rgb(145, 15, 15);
 }
 
+
+/*---------------------------------------------------- index sidebar */
+
 .sidebar {
     z-index: 5;
     height: 100%;
-    width: 400px;
     top: 0px;
     bottom: 0px;
     background: #000000;
@@ -27,14 +27,18 @@ nav {
 
 .sidebar .brand {
     font-family: 'Roboto Slab', serif;
-    margin-top: 45px;
+    margin-bottom: 25px;
     text-align: center;
     display: block;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .font-theme {
     color: blanchedalmond;
+}
+
+.logo-home {
+    color: rgb(145, 15, 15);
 }
 
 img {
@@ -69,14 +73,24 @@ img {
     background: rgb(145, 15, 15);
 }
 
-.container-custom {
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 100%;
-    overflow: auto;
+
+/* -------------------------------------------------------------about */
+
+.pages-container {
+    margin: 20px;
+    padding: 150px;
 }
 
-.content .container-custom {
-    width: calc(100% + 50px);
-    padding-right: 50px;
+.color {
+    background: black;
+}
+
+
+/* --------------------------------------------------------------skills */
+
+
+/* -----------------------------------------------------------portfolio */
+
+.card {
+    padding: 10px;
 }
