@@ -1,3 +1,82 @@
-* {
-    border: 1px thick black;
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: 100%;
+    color: rgb(145, 15, 15);
+}
+
+nav {
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.nabvar-toggler-icon {
+    color: rgb(145, 15, 15);
+}
+
+.sidebar {
+    z-index: 5;
+    height: 100%;
+    width: 400px;
+    top: 0px;
+    bottom: 0px;
+    background: #000000;
+}
+
+.sidebar .brand {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 45px;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+}
+
+.font-theme {
+    color: blanchedalmond;
+}
+
+img {
+    width: 100%;
+}
+
+.sidebar-network .sn-icon {
+    padding: 0px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.sidebar-network .sn-icon a {
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    transform: preserve-3d;
+    cursor: pointer;
+    width: 100%;
+    float: left;
+    padding: 20px;
+    color: rgb(145, 15, 15);
+}
+
+.sidebar-network .sn-icon a:hover {
+    transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    color: #111718;
+    background: rgb(145, 15, 15);
+}
+
+.container-custom {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    overflow: auto;
+}
+
+.content .container-custom {
+    width: calc(100% + 50px);
+    padding-right: 50px;
 }
