@@ -8,12 +8,12 @@
  .mainContainer {
      padding: 0;
  }
+ /* ////////////////////////navbar////////////////////////////////// */
  
  nav {
      background: black;
      border: solid 1px black;
      color: rgb(201, 198, 198);
-     ;
  }
  
  #navbarNav {
@@ -25,6 +25,7 @@
      background-color: crimson;
      animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
  }
+ /* ///////////////////////////////sidebar//////////////////////// */
  
  .con-container {
      padding: 0;
@@ -42,7 +43,7 @@
      opacity: 0.9;
      justify-content: center;
      text-align: center;
-     border: solid 1px black;
+     border: solid 1px crimson;
      color: rgb(201, 198, 198);
      ;
  }
@@ -56,12 +57,19 @@
      color: crimson;
  }
  
+ .bottom-line {
+     width: 80%;
+     border-bottom: solid 5px rgb(201, 198, 198);
+     margin: 20px auto;
+ }
+ 
  img {
      width: 300px;
  }
  
  .profile-description {
-     padding: 30px 35px;
+     padding: 30px 40px;
+     margin: 20px auto;
  }
  
  .sidebar-network .sn-icon {
@@ -88,8 +96,8 @@
      -ms-transform: rotateY(360deg);
      -webkit-transform: rotateY(360deg);
      background: rgb(201, 198, 198);
-     ;
  }
+ /* ////////////////////////////////home/landing//////////////////////////////////////////////////// */
  
  .landing {
      background-image: url(../images/blake-connally-B3l0g6HLxr8-unsplash.jpg);
@@ -98,21 +106,36 @@
      background-size: cover;
      padding-top: 70px;
      color: rgb(201, 198, 198);
-     ;
      width: 75%;
      height: 100vh;
  }
  
+ .landing p {
+     padding: 50px;
+     font-size: 4rem;
+     text-align: center;
+     background: rgb(0, 0, 0, 0.4);
+ }
+ /* //////////////////////////////////////////////about /////////////////////////// */
+ 
  .about {
      text-align: center;
      background: rgb(201, 198, 198);
-     ;
      position: relative;
      left: 25%;
      width: 75%;
      height: 100vh;
      padding: 10% 0 30px;
  }
+ 
+ .about-me {
+     margin: 80px auto 80px;
+ }
+ 
+ .about-me p {
+     text-align: start;
+ }
+ /* ////////////////////////////////////////////////////portfolio ///////////////////////////////////// */
  
  .portfolio {
      text-align: center;
@@ -129,18 +152,26 @@
      justify-content: center;
  }
  
- .about-me {
-     margin-top: 80px;
-     justify-content: center;
- }
- 
  .btn {
      background: crimson;
      color: rgb(201, 198, 198);
-     ;
  }
  
  .card-body {
      background: rgb(201, 198, 198);
-     ;
  }
+ /* // Extra small devices (portrait phones, less than 576px) */
+ 
+ @media (max-width: 575.98px) {}
+ /* // Small devices (landscape phones, 576px and up) */
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+ /* // Medium devices (tablets, 768px and up) */
+ 
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+ /* // Large devices (desktops, 992px and up) */
+ 
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+ /* // Extra large devices (large desktops, 1200px and up) */
+ 
+ @media (min-width: 1200px) {}
