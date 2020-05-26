@@ -1,6 +1,9 @@
  /* * {
      border: solid 1px black;
  } */
+ /* body {
+    
+ } */
  
  .mainContainer {
      padding: 0;
@@ -9,6 +12,8 @@
  nav {
      background: black;
      border: solid 1px black;
+     color: rgb(201, 198, 198);
+     ;
  }
  
  #navbarNav {
@@ -34,10 +39,21 @@
      height: 100%;
      padding-top: 75px;
      background: black;
+     opacity: 0.9;
      justify-content: center;
      text-align: center;
      border: solid 1px black;
-     color: #fff;
+     color: rgb(201, 198, 198);
+     ;
+ }
+ 
+ .brand a {
+     color: rgb(201, 198, 198);
+     ;
+ }
+ 
+ .font-theme {
+     color: crimson;
  }
  
  img {
@@ -64,12 +80,15 @@
      width: 100%;
      float: left;
      padding: 5px;
+     color: crimson;
  }
  
  .sidebar-network .sn-icon a:hover {
      transform: rotateY(360deg);
      -ms-transform: rotateY(360deg);
      -webkit-transform: rotateY(360deg);
+     background: rgb(201, 198, 198);
+     ;
  }
  
  .landing {
@@ -78,14 +97,16 @@
      background-position: center;
      background-size: cover;
      padding-top: 70px;
-     color: cornsilk;
+     color: rgb(201, 198, 198);
+     ;
      width: 75%;
      height: 100vh;
  }
  
  .about {
      text-align: center;
-     background: coral;
+     background: rgb(201, 198, 198);
+     ;
      position: relative;
      left: 25%;
      width: 75%;
@@ -95,7 +116,7 @@
  
  .portfolio {
      text-align: center;
-     background: chocolate;
+     background: rgb(201, 198, 198);
      position: relative;
      left: 25%;
      width: 75%;
@@ -111,4 +132,15 @@
  .about-me {
      margin-top: 80px;
      justify-content: center;
+ }
+ 
+ .btn {
+     background: crimson;
+     color: rgb(201, 198, 198);
+     ;
+ }
+ 
+ .card-body {
+     background: rgb(201, 198, 198);
+     ;
  }
