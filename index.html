@@ -8,85 +8,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type=text/css media="screen" href="./css/style.css">
+    <link rel="stylesheet" type=text/css media="screen" href="css/style.css">
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-
 </head>
 
-<body background="./images/blake-connally-B3l0g6HLxr8-unsplash.jpg">
-    <!-- <div class="container main-body"> -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark text-white ">
-        <a class="navbar-brand" href="index.html">Oscar Charo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+    <div class="container-fluid mainContainer">
+        <nav class="navbar navbar-expand-lg navbar-dark text-white fixed-top ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav menu">
-                <li class="nav-item ">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- end navbar -->
-    <div class="row body">
-        <div class="sidebar col-xl-3 col-lg-4 col-md-12 col-xl-3 d-flex justified-content">
-            <div class="container">
-                <div class="brand col-sm-12 col-lg-12 ">
-                    <a class="logo-home" href="#">Oscar
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end navbar -->
+        <div class="container-fluid con-container">
+            <div class="row">
+                <div class="sidebar col-12 col-lg-4 col-xl-3">
+                    <div class="brand">
+                        <a class="display-3" href="index.html">Oscar
                     <span class="font-theme"><b>Charo</b></span></a>
-                </div>
-                <div class="bottom-line"></div>
-                <div class="profile-pic col-l-12">
-                    <img src="./images/CFL-00015.jpg" alt="">
-                </div>
-                <div class="row profile-decriptionco col-md-12">
-                    Hi, I'm <span class="font-theme"> Oscar Charo </span> I am fullstack developer based in Houston, TX <br>
-                    <br>
-                    <H3> Contact Information </H3>
-                    <p> Email: oscar.charo09@gmail.com </p>
-                    <p>Phone: 713-231-4879</p>
-                </div>
-                <div class="sidebar-network">
-                    <div class="container-custom">
-                        <div class="row social-network">
-                            <div class="col-lg-6 sn-icon github">
-                                <a href="https://github.com/opcharo09"><i class="fab fa-github"></i></a>
-                            </div>
-                            <div class="col-lg-6 sn-icon linkedin">
-                                <a href="https://www.linkedin.com/in/oscar-charo-829a09174/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="bottom-line"></div>
+                    <div class="profile-pic">
+                        <img src="./images/CFL-00015.jpg" alt="">
+                    </div>
+                    <div class="row profile-description">
+                        <h2>Hi, I'm <span class="font-theme"> Oscar Charo </span></h2>
+                        <p>I am fullstack developer based in Houston, TX</p>
+                        <H3> Contact Information </H3>
+                        <p> Email : oscar.charo09@gmail.com </p>
+                        <p> Phone : 713-231-4879</p>
+                    </div>
+                    <div class="sidebar-network">
+                        <div class="container">
+                            <div class="row social-network">
+                                <div class="col-lg-6 sn-icon github">
+                                    <a href="https://github.com/opcharo09"><i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="col-lg-6 sn-icon linkedin">
+                                    <a href="https://www.linkedin.com/in/oscar-charo-829a09174/"><i class="fab fa-linkedin"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-                <!-- end sidebar  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                <!-- ////////////////////////////////////////////////////////landing/////////////////////////////////////////////////////////////////////////////////         -->
+                <div class="col-xl-9 landing" id="home">
+                    <h1>Welcome to my Developer page</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia ratione fugit veniam vel ut minus, perspiciatis natus, totam, quasi iusto voluptatibus repellendus et reprehenderit qui explicabo laborum est magni.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis odio magni, illo nesciunt eveniet officia dolorum possimus dignissimos placeat. Sunt modi cupiditate inventore ipsa asperiores earum repellat minus culpa.</p>
+                </div>
+                <!-- //////////////////////////////////////////////////about/////////////////////////////////// -->
+                <section class="about" id="about">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-9">
+                                <h1>About Me</h1>
+                                <div class="about-me">
+                                    <p>Full stack web developer interested in integrating technologies to make better and efficient functionality and fix existing problems, while making a presentable and creative front end design. I have experience with
+                                        technologies with languages like javascript,react html, css and node . passionate about creating programming solution in collaboration with others to make efficient development. </p>
+                                </div>
+                                <a href="https://docs.google.com/document/d/1XaSCPRmGIuKFREsDX8iO4PMjS_cPC3vTx_IwuMEOZ3o/edit" class="btn btn-primary btn-lg"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;&nbsp; My Resume </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ///////////////////////////////////////////////////////portfolio ///////////////////////////////////////////////////////////////// -->
+                <section class="portfolio" id="portfolio">
+                    <div class="container">
+                        <h1>Projects</h1>
+                        <div class="row justify-content-center projects">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/triviaGame.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">World cup trivia game</h5>
+                                        <p class="card-text"> Ten quiestion quiz made with JS,HTML,and CSS. use 30 second timer for each question. After the time is up it shows the correct answer, then continues to the next question
+                                        </p>
+                                        <a href="https://github.com/opcharo09/TriviaGame" class="btn btn-primary">GitHub</a>
+                                        <a href="https://opcharo09.github.io/TriviaGame/" class="btn btn-primary">Deployed</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/hangman.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Photography hangman</h5>
+                                        <p class="card-text"> A word guessing game using JS,CSS and html. the number of guesses depends on the length of the word and show's you the wrong letters and number of guesses left.
+                                        </p>
+                                        <a href="https://github.com/opcharo09/Hangman-photo" class="btn btn-primary">GitHub</a>
+                                        <a href="https://opcharo09.github.io/Hangman-photo/" class="btn btn-primary">Deployed</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images/fruit.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fruit collector</h5>
+                                        <p class="card-text">A game that test your memory to get to the right number made with Bootstrap, React.js and HTML. Every time you pick a fruit it adds to the counter , if you go over the number you have start again.
+                                        </p>
+                                        <a href="https://github.com/opcharo09/Fruit-collector" class="btn btn-primary">GitHub</a>
+                                        <a href="https://opcharo09.github.io/Fruit-collector/" class="btn btn-primary">Deployed</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////////////////footer////////////////////////////////////////////////// -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 
