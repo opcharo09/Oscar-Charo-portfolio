@@ -39,7 +39,7 @@
                  top: 0;
                  z-index: 999;
                  height: 100%;
-                 padding-top: 75px;
+                 padding-top: 55px;
                  background: black;
                  opacity: 0.9;
                  justify-content: center;
@@ -162,6 +162,16 @@
              
              .card-body {
                  background: rgb(201, 198, 198);
+             }
+             /* ////////////////////////////////////////// footer////////////////////////////////////////////////////// */
+             
+             footer {
+                 text-align: center;
+                 position: relative;
+                 left: 25%;
+                 width: 75%;
+                 height: 50vhpx;
+                 background: crimson;
              }
              /* // Extra small devices (portrait phones, less than 576px) */
              
